@@ -8,11 +8,11 @@ int main(int argc, char **argv)
     std::cout<<"init"<<std::endl;
     QApplication qapp(argc, argv);
 
-    XtionSensor* xs= new XtionSensor();
-    xs->start();
+    //XtionSensor* xs= new XtionSensor();
+    //xs->start();
 
     CyclopsWindow w;
-    w.setXtion(xs);
+
     w.show();
     return qapp.exec();
 }

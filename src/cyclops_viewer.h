@@ -9,6 +9,8 @@
 #include <QLineEdit>
 #include <QGLViewer/qglviewer.h>
 #include "xtion.h"
+#include "imgui/imgui.h"
+#include "imgui/malwrapper.h"
 
 class CyclopsViewer : public QGLViewer
 {
